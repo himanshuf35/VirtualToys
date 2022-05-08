@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A392384728281B0D0066C239 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A392384628281B0D0066C239 /* main.cpp */; };
+		A392385228281B760066C239 /* Megtoy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A392385128281B760066C239 /* Megtoy.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		A392384328281B0D0066C239 /* VirtualToys */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VirtualToys; sourceTree = BUILT_PRODUCTS_DIR; };
 		A392384628281B0D0066C239 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A392385028281B670066C239 /* Megtoy.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Megtoy.hpp; sourceTree = "<group>"; };
+		A392385128281B760066C239 /* Megtoy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Megtoy.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +60,27 @@
 		A392384528281B0D0066C239 /* VirtualToys */ = {
 			isa = PBXGroup;
 			children = (
+				A392384F28281B490066C239 /* implementations */,
+				A392384D28281B350066C239 /* headers */,
 				A392384628281B0D0066C239 /* main.cpp */,
 			);
 			path = VirtualToys;
+			sourceTree = "<group>";
+		};
+		A392384D28281B350066C239 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				A392385028281B670066C239 /* Megtoy.hpp */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+		A392384F28281B490066C239 /* implementations */ = {
+			isa = PBXGroup;
+			children = (
+				A392385128281B760066C239 /* Megtoy.cpp */,
+			);
+			path = implementations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A392385228281B760066C239 /* Megtoy.cpp in Sources */,
 				A392384728281B0D0066C239 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

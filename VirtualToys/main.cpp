@@ -6,9 +6,16 @@
 //
 
 #include <iostream>
+#include "Megtoy.hpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    Megtoy firstToy(0, 0);
+    firstToy.moveForward();
+    firstToy.moveDown();
+    firstToy.moveDown();
+    firstToy.moveBackward();
+    firstToy.moveUp();
+    firstToy.moveBackward();
+    firstToy.showPosition();
     return 0;
 }
